@@ -41,7 +41,7 @@ public class MainApp {
       }
 
       System.out.println("Найти Mercedes 300");
-      System.out.println(userService.findOwner("Mercedes", 300));
+      System.out.println(userService.getUserByModelAndSeries("Mercedes", 300));
 
       context.close();
    }
